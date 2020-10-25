@@ -180,7 +180,75 @@ p.show2 {
 }
 
 /* ----- MOBILE ----- */
-@media (max-width: 715px) {
+@media (max-width: 730px) {
+  /* body {
+    overflow: scroll;
+  } */
+
+  section {
+    height: 100vh;
+    display: block;
+    overflow: scroll;
+
+  }
+
+  .contain {
+    width: 1vh;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .ROW {
+    padding: 0 50px;
+    width: 70vw;
+    height: 100%;
+
+    display: block;
+    overflow: visible;
+  }
+
+  .FAQ {
+    font-size: 14px;
+  }
+
+  .FAQ h2 {
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .IMAGE {
+    height: 150px;
+  }
+
+  #woman_img {
+    width: 250px;
+    position: relative;
+    top: -115px;
+    /* top: -20vh; */
+    left: 4vw;
+    right: 4vw;
+  }
+
+  #bg-pattern {
+    width: 250px;
+    left: 50px;
+    top: -140px;
+  }
+
+  #box {
+    width: 100px;
+    position: absolute;
+    left: -135px;
+    top: -45px;
+  }
+}
+
+@media (max-width: 620px) {
   /* body {
     overflow: scroll;
   } */
