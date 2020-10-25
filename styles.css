@@ -168,8 +168,19 @@ p.show2 {
   color: #eb4034;
 }
 
+
+@media (max-width: 940px) {
+  .contain {
+
+  }
+
+  .ROW {
+    width: 100vw;
+  }
+}
+
 /* ----- MOBILE ----- */
-@media (max-width: 415px) {
+@media (max-width: 715px) {
   /* body {
     overflow: scroll;
   } */
@@ -196,6 +207,7 @@ p.show2 {
     padding: 0 50px;
     width: 50vh;
     height: 100%;
+
     display: block;
     overflow: visible;
   }
